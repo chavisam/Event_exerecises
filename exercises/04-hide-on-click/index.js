@@ -1,4 +1,5 @@
 window.myEventListener = function myEventListener()
 {
-	//your code here
+	let hideDiv= document.querySelectorAll('div');
+	hideDiv[0].style.display = 'none';
 }
